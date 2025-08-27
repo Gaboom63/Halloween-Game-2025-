@@ -6,17 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Halloween Game</title>
     <link rel="stylesheet" href="CSS/canvas.css">
+    <link rel="stylesheet" href="CSS/inventory.css">
 </head>
 
 <body>
-    <div id="cords_Container">
-        <div id="coordinates"></div>
-    </div>
     <canvas id="gameCanvas"></canvas>
+    <div id="inventory">
+        <div id="playerBox">
+            <h1 id="name"><u><b>Pumpko</b></u></h1>
+        </div>
+        <div id="weaponBox"></div>
+        <div id="weaponShield"></div>
+        <div id="items">
+            <h1 id="titleInventory">Inventory</h1>
+        </div>
+    </div>
 
-    <script type="module" src="JS/player.js"></script>
-    <script type="module" src="JS/keys.js"></script>
     <script type="module" src="JS/world.js"></script>
+    <script type="module" src="JS/player.js"></script>
+    <script type="module" src="JS/enemies.js"></script>
+    <script type="module" src="JS/keys.js"></script>
+    <script type="module" src="JS/ui.js"></script>
 
 </body>
 
