@@ -1,0 +1,83 @@
+#inventory {
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    background-color: rgba(75, 48, 82, 0.7);
+    border: 2px dotted rgb(64, 6, 53);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100px;
+    display: none;
+}
+
+#playerBox {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-image: url('/Images/Pumpko_idle.gif');
+    background-color: rgba(0, 0, 0, 0.7);
+    background-repeat: no-repeat;
+    image-rendering: pixelated;
+    background-size: 100px;
+    background-position: 50%;
+}
+
+#name {
+    position: absolute;
+    color: orange;
+    top: 70%;
+}
+
+#items {
+    position: absolute;
+    width: 400px;
+    height: 100%;
+    /* background-color: rgba(75, 48, 82, 0.7); */
+    border: 2px dotted rgb(64, 6, 53);
+    left: 100%;
+    transform: translate(-100%);
+    text-align: center;
+}
+
+#titleInventory {
+    position: absolute;
+    width: 360px;
+    color: orange;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-decoration: underline;
+    bottom: 100%;
+    transform: translate(0%, 130%);
+}
+
+#weaponBox {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 250px;
+    left: 10px;
+    background-image: url('/Images/Items/background_sword.png');
+    background-repeat: no-repeat;
+    image-rendering: pixelated;
+    filter: grayscale(1);
+    filter: blur(0.7);
+    background-size: 50px;
+}
+
+#weaponShield {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 250px;
+    left: 80px;
+    background-image: url('/Images/Items/background_shield.png');
+    background-repeat: no-repeat;
+    image-rendering: pixelated;
+    filter: grayscale(1);
+    filter: blur(0.7);
+    background-size: 40px;
+    background-position: center;
+}
